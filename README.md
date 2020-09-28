@@ -8,6 +8,7 @@ Se utiliza express y mysql
 - GET:  http://localhost:5000/api/users/:id
 
 - POST  http://localhost:5000/api/users/ 
+
 body: raw tipo JSON
 ```
 { 
@@ -18,8 +19,6 @@ body: raw tipo JSON
 }
 ```
 - PUT: http://localhost:5000/api/users/:id
-
-- DELETE: http://localhost:5000/api/users/:id
 ```
 { 
 	"user":{
@@ -28,6 +27,9 @@ body: raw tipo JSON
 	}
 }
 ```
+
+- DELETE: http://localhost:5000/api/users/:id
+
 
 ### create a new repository on the command line
 echo "# frenon-api-mysql" >> README.md
